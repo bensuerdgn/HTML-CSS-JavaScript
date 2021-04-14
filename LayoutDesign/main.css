@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color:white;
+  background-color: white;
 }
 .header {
   display: flex;
@@ -30,7 +30,6 @@
   align-items: center;
   background-color: white;
   height: 100px;
-
 }
 .header a {
   margin: 0 10px 0 10px;
@@ -41,9 +40,8 @@
 .section {
   display: flex;
   flex-direction: column;
-  
 }
-.content{
+.content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -67,25 +65,26 @@
   color: #000000;
   width: 400px;
 }
-.sidebar{
-  width:20%;
-  margin: 135px 0 0 50px ;
+.sidebar {
+  width: 20%;
+  margin: 135px 0 0 50px;
 }
-.category{
+.category {
   position: relative;
   z-index: -1;
+  margin: 20px 0 20px 0;
 }
-.text{
+.text {
   position: absolute;
   top: 30%;
   left: 30%;
 }
 .category img {
-  width:100%;
+  width: 100%;
   height: auto;
-  margin: 20px 0 20px 0;
 }
-.category .text p, .category .text a{
+.category .text p,
+.category .text a {
   font-weight: 500;
   color: black;
   font-size: 20px;
@@ -96,7 +95,7 @@
   justify-content: center;
   align-items: center;
   margin: 30px 0 30px 0;
-  width:80%;
+  width: 80%;
 }
 .products h2 {
   font-size: 44px;
@@ -111,13 +110,19 @@
   justify-content: center;
 }
 .cart-details {
+  transition: .3s all ease-in-out;
+  box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
   margin: 20px;
+}
+.cart-details:hover{
+  box-shadow: 0px 1px 1px 1px rgb(0 0 0 / 20%);
 }
 .product-detail {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 .product-name {
   margin: 10px 0 5px 0;
@@ -127,26 +132,30 @@
   color: black;
   font-size: 15px;
 }
-.footer{
+.footer {
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  background-color:#f6f6f6;
+  justify-content: space-evenly;
+  background-color: #f6f6f6;
   padding-top: 100px;
 }
-.popular-products{
+.popular-products {
   display: flex;
   flex-direction: row;
-  align-items:center;
-  margin:10px 0 10px 0;
+  align-items: center;
+  margin: 10px 0 10px 0;
 }
-.popular-product-img img{
-  width:100px;
+.popular-product-img img {
+  width: 100px;
   margin-right: 10px;
 }
-.popular-product-text p,.popular-product-text a{
+.popular-product-text p,
+.popular-product-text a {
   color: black;
 }
-.social-media i{
-  margin:0 5px 0 5px;
+.social-media i {
+  margin: 0 5px 0 5px;
+}
+a:hover, i:hover {
+  color: #ff7012;
 }
