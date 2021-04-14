@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "Montserrat", "Raleway", "Helvetica", "Arial", "sans-serif";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:white;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+
+}
+.header a {
+  margin: 0 10px 0 10px;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+.feature img {
+  height: auto;
+  max-width: 80%;
+  margin-top: 220px;
+}
+.feature h2 {
+  font-size: 35px;
+  line-height: 120%;
+  font-weight: 600;
+  color: #000000;
+  width: 400px;
+}
+.sidebar{
+  width:20%;
+  margin: 135px 0 0 50px ;
+}
+.category{
+  position: relative;
+  z-index: -1;
+}
+.text{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.category img {
+  width:100%;
+  height: auto;
+  margin: 20px 0 20px 0;
+}
+.category .text p, .category .text a{
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 30px 0;
+  width:80%;
+}
+.products h2 {
+  font-size: 44px;
+  line-height: 120%;
+  font-weight: 500;
+  width: 400px;
+  text-align: center;
+}
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cart-details {
+  margin: 20px;
+}
+.product-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-name {
+  margin: 10px 0 5px 0;
+}
+.product-name a {
+  font-weight: 500;
+  color: black;
+  font-size: 15px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  background-color:#f6f6f6;
+  padding-top: 100px;
+}
+.popular-products{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  margin:10px 0 10px 0;
+}
+.popular-product-img img{
+  width:100px;
+  margin-right: 10px;
+}
+.popular-product-text p,.popular-product-text a{
+  color: black;
+}
+.social-media i{
+  margin:0 5px 0 5px;
+}

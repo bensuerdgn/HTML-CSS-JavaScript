@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  color: #444343;
+}
+input {
+  padding: 5px;
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  background-color: #719ef8;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #acc5f7;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+.form-question .question {
+  display: flex;
+  flex-direction: row;
+}
+.form-question div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.form-question input,
+.form-question select {
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+}
+.form-question label {
+  margin: 0 0 10px 10px;
+}
+.form-lesson input {
+  margin: 15px 45px 15px 45px;
+}
+.form-complaints input {
+  width: 600px;
+  height: 100px;
+  margin: 10px 0 20px 0;
+  border-radius: 30px;
+}
+.submit input {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #719ef8;
+  color: white;
+}
