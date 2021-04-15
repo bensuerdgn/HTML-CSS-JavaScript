@@ -23,7 +23,7 @@
   align-items: center;
   background-color: white;
 }
-.header {
+.option {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31,7 +31,7 @@
   background-color: white;
   height: 100px;
 }
-.header a {
+.option a {
   margin: 0 10px 0 10px;
   font-weight: 500;
   color: black;
@@ -46,19 +46,19 @@
   flex-direction: row;
   justify-content: center;
 }
-.feature {
+.section-header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #f6f6f6;
 }
-.feature img {
+.section-header img {
   height: auto;
   max-width: 80%;
   margin-top: 220px;
 }
-.feature h2 {
+.section-header h2 {
   font-size: 35px;
   line-height: 120%;
   font-weight: 600;
@@ -104,7 +104,7 @@
   width: 400px;
   text-align: center;
 }
-.cart {
+.products-cart {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
