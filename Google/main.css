@@ -15,12 +15,69 @@ i {
 .header {
   background-color: #282424;
 }
-.header .tab {
+.header .tab-top {
+  display: flex;
+  align-items: center;
+}
+.header .tab-top .tab-title {
+  display: flex;
+  justify-content: space-between;
   background-color: #38343c;
-  width: 10%;
-  margin-left: 10px;
-  border-radius: 6px 6px 0 0;
+  width: 250px;
+  margin: 0 10px;
+  border-radius: 10px 10px 0 0;
   padding: 10px;
+}
+.header .tab-top .tab-title a {
+  color: white;
+  padding-left: 5px;
+}
+.header .tab-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #38343c;
+}
+.header .tab-bottom .tab-direction {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+}
+.header .tab-bottom .tab-direction i {
+  margin: 0 5px;
+}
+.header .tab-bottom .tab-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282424;
+  width: 75%;
+  height: 30px;
+  border-radius: 25px;
+  padding: 10px;
+}
+.header .tab-bottom .tab-search input {
+  width: 100%;
+  background-color: #282424;
+  color: white;
+}
+.header .tab-bottom .tab-hidden {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+.header .tab-bottom .tab-hidden button {
+  height: 30px;
+  border-radius: 25px;
+  background-color: #282424;
+  padding: 10px;
+  color: white;
+  margin-right: 10px;
+  font-size: 10px;
+}
+.header i {
+  color: white;
 }
 
 .nav {

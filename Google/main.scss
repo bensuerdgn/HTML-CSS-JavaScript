@@ -1,8 +1,8 @@
 $nav-padding: 15px;
 $text-color: rgba(0, 0, 0, 0.87);
 $icon-color: #5f6368;
-$header-color:#282424;
-$header-color2:#38343c;
+$header-color: #282424;
+$header-color2: #38343c;
 * {
   margin: 0;
   padding: 0;
@@ -15,14 +15,70 @@ $header-color2:#38343c;
 i {
   color: $icon-color;
 }
-.header{
-  background-color:$header-color;
-  .tab{
-    background-color:$header-color2;
-    width:10%;
-    margin-left: 10px;
-    border-radius:6px 6px 0 0;
-    padding:10px;
+.header {
+  background-color: $header-color;
+  .tab-top {
+    display: flex;
+    align-items: center;
+    .tab-title {
+      display: flex;
+      justify-content: space-between;
+      background-color: $header-color2;
+      width: 250px;
+      margin: 0 10px;
+      border-radius: 10px 10px 0 0;
+      padding: 10px;
+      a {
+        color: white;
+        padding-left: 5px;
+      }
+    }
+  }
+  .tab-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: $header-color2;
+    .tab-direction {
+      display: flex;
+      flex-direction: row;
+      width: 10%;
+      i {
+        margin: 0 5px;
+      }
+    }
+    .tab-search {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $header-color;
+      width: 75%;
+      height: 30px;
+      border-radius: 25px;
+      padding: 10px;
+      input {
+        width: 100%;
+        background-color: $header-color;
+        color: white;
+      }
+    }
+    .tab-hidden {
+      display: flex;
+      align-items: center;
+      width: 10%;
+      button {
+        height: 30px;
+        border-radius: 25px;
+        background-color: $header-color;
+        padding: 10px;
+        color: white;
+        margin-right: 10px;
+        font-size: 10px;
+      }
+    }
+  }i{
+    color:white;
   }
 }
 .nav {
@@ -117,18 +173,17 @@ i {
   bottom: 0px;
   .footer-top {
     border-bottom: 1px solid #dadce0;
-    padding:15px 30px;
+    padding: 15px 30px;
     font-size: 15px;
-    color: rgba(0,0,0,.54);
+    color: rgba(0, 0, 0, 0.54);
   }
   .footer-bottom {
     display: flex;
     justify-content: space-between;
-    padding:15px 30px;
-    
-    a{
+    padding: 15px 30px;
+    a {
       font-size: 15px;
-      color: rgba(0,0,0,.54);
+      color: rgba(0, 0, 0, 0.54);
     }
   }
 }
