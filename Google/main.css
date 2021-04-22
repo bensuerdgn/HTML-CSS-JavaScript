@@ -58,7 +58,7 @@ i {
   padding: 10px;
 }
 .header .tab-bottom .tab-search input {
-  width: 100%;
+  width: 90%;
   background-color: #282424;
   color: white;
 }
@@ -71,7 +71,7 @@ i {
   height: 30px;
   border-radius: 25px;
   background-color: #282424;
-  padding: 10px;
+  padding: 5px 10px;
   color: white;
   margin-right: 10px;
   font-size: 10px;
@@ -93,16 +93,10 @@ i {
 }
 .nav .nav-element .nav-link a {
   padding-right: 15px;
-  line-height: 24px;
   color: rgba(0, 0, 0, 0.87);
 }
 .nav .nav-element .nav-icon {
   padding-right: 15px;
-}
-.nav .nav-element .nav-icon a i {
-  color: #5f6368;
-  font-weight: 600;
-  font-size: 18px;
 }
 .nav .nav-element .nav-button {
   padding-right: 15px;
@@ -111,8 +105,7 @@ i {
   background-color: #1a73e8;
   color: white;
   border: 1px solid transparent;
-  padding: 9px 23px 9px 23px;
-  margin: 8px;
+  padding: 9px 23px;
   border-radius: 4px;
 }
 
@@ -131,9 +124,7 @@ i {
   padding: 0 7px 0 14px;
   margin-top: 20px;
   border: 1px solid #dfe1e5;
-  box-shadow: none;
   border-radius: 24px;
-  z-index: 3;
   height: 44px;
 }
 .section .content .search:hover {
@@ -142,6 +133,9 @@ i {
 .section .content .search .search-keyboard i {
   padding-right: 7px;
 }
+.section .content .search input {
+  width: 80%;
+}
 .section .content .buttons {
   display: flex;
   flex-direction: row;
@@ -149,10 +143,8 @@ i {
 }
 .section .content .buttons .button {
   background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
   border-radius: 4px;
-  color: rgba(0, 0, 0, 0.87);
-  margin: 0 4px 0 4px;
+  margin: 0 4px;
   padding: 10px 16px;
 }
 .section .content .buttons .button:hover {

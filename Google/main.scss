@@ -58,7 +58,7 @@ i {
       border-radius: 25px;
       padding: 10px;
       input {
-        width: 100%;
+        width: 90%;
         background-color: $header-color;
         color: white;
       }
@@ -71,14 +71,15 @@ i {
         height: 30px;
         border-radius: 25px;
         background-color: $header-color;
-        padding: 10px;
+        padding: 5px 10px;
         color: white;
         margin-right: 10px;
         font-size: 10px;
       }
     }
-  }i{
-    color:white;
+  }
+  i {
+    color: white;
   }
 }
 .nav {
@@ -91,17 +92,11 @@ i {
       padding-right: $nav-padding;
       a {
         padding-right: $nav-padding;
-        line-height: 24px;
         color: $text-color;
       }
     }
     .nav-icon {
       padding-right: $nav-padding;
-      a i {
-        color: $icon-color;
-        font-weight: 600;
-        font-size: 18px;
-      }
     }
     .nav-button {
       padding-right: $nav-padding;
@@ -109,8 +104,7 @@ i {
         background-color: #1a73e8;
         color: white;
         border: 1px solid transparent;
-        padding: 9px 23px 9px 23px;
-        margin: 8px;
+        padding: 9px 23px;
         border-radius: 4px;
       }
     }
@@ -131,15 +125,16 @@ i {
       padding: 0 7px 0 14px;
       margin-top: 20px;
       border: 1px solid #dfe1e5;
-      box-shadow: none;
       border-radius: 24px;
-      z-index: 3;
       height: 44px;
       &:hover {
         box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
       }
       .search-keyboard i {
         padding-right: 7px;
+      }
+      input {
+        width: 80%;
       }
     }
     .buttons {
@@ -148,10 +143,8 @@ i {
       margin-top: 20px;
       .button {
         background-color: #f8f9fa;
-        border: 1px solid #f8f9fa;
         border-radius: 4px;
-        color: $text-color;
-        margin: 0 4px 0 4px;
+        margin: 0 4px;
         padding: 10px 16px;
         &:hover {
           box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
