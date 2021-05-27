@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>Takım Projesi</h1>
+            <div class="boxes">
+                <div class="box" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3>Bekleyen İşler</h3>
+                    <!--
+                        <div class="item" draggable="true" ondragstart="drag(event)" >
+                            <h4>Ödev 6</h4>
+                            <span>bu bir ödevdir</span>
+                            <span>00.00.0000</span>
+                        </div>
+                    -->
+                </div>
+                <div class="box" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3>Devam Eden İşler</h3>
+                </div>
+                <div class="box" id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <h3>Biten İşler</h3>
+                </div>
+                <div class="box">
+                    <h3>Görev Ekle</h3>
+                    <form class="form">
+                        <input type="text" class="title" placeholder="Başlık">
+                        <textarea placeholder="Açıklama" class="text"></textarea>
+                        <input type="datetime" class="date" placeholder="Bitiş tarihi (ddmmyyy)">
+                        <button type="submit" class="submit">Görev Ekle</button>
+                        <button ondrop="deleteDrop(event)" ondragover="allowDrop(event)">Temizle</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
