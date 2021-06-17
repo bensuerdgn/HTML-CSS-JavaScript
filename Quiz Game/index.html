@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn"><button>Oyun Başlasın</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Kurallar:</span></div>
+        <div class="info-list">
+            <div class="info">1. Her soru için yalnızca <span>10 saniyeniz</span> var.</div>
+            <div class="info">2. Cevabınızı seçtikten sonra geri alınamaz.</div>
+            <div class="info">3. Zaman geçtikten sonra hiçbir seçeneği seçemezsiniz.</div>
+            <div class="info">4. Oyun oynarken bitirmeden çıkamazsınız.</div>
+            <div class="info">5. Doğru cevaplarınıza göre puan alacaksınız.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">İptal</button>
+            <button class="restart">İlerle</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Milyoner-Sivas</div>
+            <div class="timer">
+                <div class="time_left_txt" style="margin:3px">Kronometre</div>
+                <div class="timer_sec">10</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_img" style="text-align:center;"></div>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn" id="click" onclick="clicked()"></button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Oyunu Tamamladın</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Tekrar Oyna</button>
+            <button class="quit">Oyundan çık</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
